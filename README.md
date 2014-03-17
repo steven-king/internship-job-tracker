@@ -11,14 +11,14 @@ Requirements:
 
 	User Registration 
 	
-User Posting forms	
+	User Posting forms	
 
-Multiple Views:
+	Multiple Views:
 
-Interactive Map 
+		Interactive Map 
 
-Sortable List
+		Sortable List
 
-Detail view of each company
+		Detail view of each company
 
 
