@@ -6,6 +6,36 @@ from allauth.socialaccount.models import SocialAccount
 import hashlib
 
 
+class User(models.Model):
+    name = models.TextField(null=True)
+    skillset = models.TextField(null=True)
+    email = models.TextField(null=True)
+    graduation_year = models.TextField(null=True)
+    bio = models.TextField(null=True)
+    major = models.TextField(null=True)
+    portfolio = models.TextField(null=True)
+    twitter = models.TextField(null=True)
+    current_position = models.TextField(null=True)
+    current_city = models.TextField(null=True)
+
+class Position(models.Model):
+    department = models.TextField(null=True)
+    skillset = models.TextField(null=True)
+
+class Organization(models.Model):
+    name = models.TextField(null=True)
+    url = models.TextField(null=True)
+    bio = models.TextField(null=True)
+    contact = models.TextField(null=True)
+    department = models.TextField(null=True)
+    city = models.TextField(null=True)
+    opening = models.TextField(null=True)
+    twitter = models.TextField(null=True)
+
+class City(models.Model):
+    state = models.TextField(null=True)
+
+
 class UserProfile(models.Model):
     user = models.OneToOneField(User, related_name='profile')
     about_me = models.TextField(null=True, blank=True)
