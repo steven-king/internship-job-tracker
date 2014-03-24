@@ -17,6 +17,14 @@ class User(models.Model):
     twitter = models.TextField(null=True)
     current_position = models.TextField(null=True)
     current_city = models.TextField(null=True)
+    class Meta(object):
+        verbose_name_plural = "Users"
+        ordering = ('name',)
+    def __unicode__(self):
+        return self.name
+    def save(self, *args, **kwargs):
+        self.name=self.name.upper()
+        super(User, self).save(*args, **kwargs)
 
 class Position(models.Model):
     department = models.TextField(null=True)
@@ -33,6 +41,7 @@ class Organization(models.Model):
     twitter = models.TextField(null=True)
 
 class City(models.Model):
+    name = models.TextField(null=True)
     state = models.TextField(null=True)
 
 
