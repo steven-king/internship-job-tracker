@@ -22,4 +22,22 @@
 
 </body>
 
+<body>
+<h4>I am a</h4>
+<a href="#">developer</a>
+<a href="#">designer</a>
+<a href="#">photographer</a>
+<a href="#">videographer</a>
+<h4>Interested in a(n)</h4>
+<a href="#">Job</a> | <a href="#">Internship</a>
+<h4>In</h4>
+{% for city in citys %}
+	<p> {{ city.name }}</p>
+{% endfor %}
+<h4>At</h4>
+{% for organization in organizations %}
+	<p> {{ organization.name }} </p>
+{% endfor %}
+</body>
+
 {% endblock %}
