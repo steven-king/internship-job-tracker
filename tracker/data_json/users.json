@@ -1,107 +1,111 @@
 [
 	{
-		"pk":1,
+		"pk": 0,
 		"model":"interactive_app.User",
 		"fields":{
-			"name":"Annie Daniel",
-			"skillset":"Code",
-			"email":"anniedaniel001@gmail.com",
-			"graduation_year":"2014",
-			"bio":"",
+			"name": "Annie Daniel",
+			"skillset": "Code",
+			"email": "anniedaniel001@gmail.com",
+			"graduation_year": "2014",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus varius sapien at semper. Nunc sit amet diam malesuada, malesuada ante in, porttitor augue. Aenean eu massa sit amet risus rhoncus cursus ac in est. Nam fermentum, felis eget consequat lobortis, risus tellus luctus erat, sed lobortis eros lorem in tortor. Vivamus lobortis, purus eu suscipit dignissim, nibh est congue felis, ut molestie lectus lorem eget justo. Sed faucibus scelerisque mi ac varius. Sed consectetur, magna quis molestie placerat, urna odio hendrerit nunc, eu consectetur sapien velit a nibh. Curabitur a mollis felis. Quisque vitae quam mi. Sed porta sed enim vestibulum faucibus. Sed feugiat interdum risus, nec ultricies ante vulputate nec. Fusce a lacinia elit. Donec vel luctus ligula.",
 			"major":"Journalism",
-			"portfolio":"",
-			"twitter":"",
-			"current_position":"",
-			"current_city":""
-
+			"portfolio":"http://www.thesddaniels.com/",
+			"twitter":"https://twitter.com/anieldaniel",
+			"current_position":"Graphics Intern",
+			"current_city":"Washington, DC",
+			"current_company": "The Washington Post",
+			"image_url": "anniedaniel.jpeg"
 		}
 	},
 		{
-		"pk":1,
+		"pk": 1,
 		"model":"interactive_app.User",
 		"fields":{
-			"name":"",
-			"skillset":"",
-			"email":"",
-			"graduation_year":"",
-			"bio":"",
-			"major":"",
-			"portfolio":"",
-			"twitter":"",
-			"current_position":"",
-			"current_city":""
-
+			"name": "Jeff Bowman",
+			"skillset": "Photo",
+			"email": "jeffbowman@email.com",
+			"graduation_year": "2016",
+			"bio": "Nulla odio nulla, bibendum et nunc sed, volutpat tincidunt ante. Proin semper lacinia laoreet. Suspendisse id sem et nibh pulvinar pharetra. Duis vestibulum massa tellus, vel suscipit ante tristique id. Quisque in elit erat. Curabitur ultricies sit amet urna vitae tincidunt. Phasellus laoreet, ligula et cursus lacinia, nunc mauris tincidunt tortor, vel molestie quam purus molestie mi. Curabitur ac felis dapibus, molestie diam a, aliquet neque. Duis dolor massa, porta sit amet libero quis, facilisis vulputate erat. Nam purus arcu, egestas non justo sed, feugiat consectetur neque. Pellentesque in ante vulputate, tempor diam sed, interdum elit. Curabitur lacinia massa enim, eu aliquet libero accumsan vel. Pellentesque tincidunt eu sapien non suscipit. Phasellus et nisi mollis, dapibus ligula id, sodales sapien. Vestibulum quis elementum sapien, ac posuere quam. Sed faucibus scelerisque mi ac varius. Sed consectetur, magna quis molestie placerat, urna odio hendrerit nunc, eu consectetur sapien velit a nibh. Curabitur a mollis felis. Quisque vitae quam mi. Sed porta sed enim vestibulum faucibus. Sed feugiat interdum risus, nec ultricies ante vulputate nec. Fusce a lacinia elit. Donec vel luctus ligula.",
+			"major":"Journalism",
+			"portfolio":"http://www.jeffbowman.com/",
+			"twitter":"https://twitter.com/jeffreylbowman",
+			"current_position":"Photo Intern",
+			"current_city":"Raleigh, NC",
+			"current_company": "The News and Observer",
+			"image_url": "jeffbowman.jpg"
 		}
 	},
 		{
-		"pk":1,
+		"pk": 2,
 		"model":"interactive_app.User",
 		"fields":{
-			"name":"",
-			"skillset":"",
-			"email":"",
-			"graduation_year":"",
-			"bio":"",
-			"major":"",
-			"portfolio":"",
-			"twitter":"",
-			"current_position":"",
-			"current_city":""
-
+			"name": "Jason Miller",
+			"skillset": "Design",
+			"email": "jmiller@email.com",
+			"graduation_year": "2017",
+			"bio": "Nullam posuere semper lorem eu volutpat. Pellentesque pretium non lorem non varius. Vivamus aliquet dolor ligula, sit amet accumsan elit porta id. Cras sit amet odio malesuada urna volutpat faucibus. Vestibulum pharetra, orci eu auctor sollicitudin, tortor enim scelerisque mi, vitae venenatis odio dui ac dolor. Etiam in aliquam tortor, eu porta odio. Maecenas iaculis tristique arcu, at molestie odio commodo et. Praesent diam sapien, pharetra at hendrerit quis, vulputate eu purus. Ut interdum cursus tortor. Aenean non commodo ipsum. Suspendisse a eros sodales, feugiat orci a, tincidunt lacus. Fusce quis nulla nibh. Ut scelerisque pretium orci et posuere. Etiam vulputate in metus id imperdiet. Mauris sollicitudin dui lacus, sit amet porttitor erat volutpat non. Phasellus nec arcu sollicitudin, ultrices urna quis, blandit enim. Vivamus lobortis, purus eu suscipit dignissim, nibh est congue felis, ut molestie lectus lorem eget justo. Sed faucibus scelerisque mi ac varius. Sed consectetur, magna quis molestie placerat, urna odio hendrerit nunc, eu consectetur sapien velit a nibh. Curabitur a mollis felis. Quisque vitae quam mi. Sed porta sed enim vestibulum faucibus. Sed feugiat interdum risus, nec ultricies ante vulputate nec. Fusce a lacinia elit. Donec vel luctus ligula.",
+			"major":"Journalism",
+			"portfolio":"http://www.jmiller.com/",
+			"twitter":"https://twitter.com/JasonMillerCA",
+			"current_position":"Interactive Design Intern",
+			"current_city":"Miami, FL",
+			"current_company": "The Miami Herald",
+			"image_url": "jasonmiller.jpeg"
 		}
 	},
 		{
-		"pk":1,
+		"pk": 3,
 		"model":"interactive_app.User",
 		"fields":{
-			"name":"",
-			"skillset":"",
-			"email":"",
-			"graduation_year":"",
-			"bio":"",
-			"major":"",
-			"portfolio":"",
-			"twitter":"",
-			"current_position":"",
-			"current_city":""
-
+			"name": "Kelly Hobbs",
+			"skillset": "Reporting",
+			"email": "kkhobbs@email.com",
+			"graduation_year": "2014",
+			"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus varius sapien at semper. Nunc sit amet diam malesuada, malesuada ante in, porttitor augue. Aenean eu massa sit amet risus rhoncus cursus ac in est. Nam fermentum, felis eget consequat lobortis, risus tellus luctus erat, sed lobortis eros lorem in tortor. Vivamus lobortis, purus eu suscipit dignissim, nibh est congue felis, ut molestie lectus lorem eget justo. Sed faucibus scelerisque mi ac varius. Sed consectetur, magna quis molestie placerat, urna odio hendrerit nunc, eu consectetur sapien velit a nibh. Curabitur a mollis felis. Quisque vitae quam mi. Sed porta sed enim vestibulum faucibus. Sed feugiat interdum risus, nec ultricies ante vulputate nec. Fusce a lacinia elit. Donec vel luctus ligula.",
+			"major":"Journalism",
+			"portfolio":"http://www.hobbs.com/",
+			"twitter":"https://twitter.com/Kelloggz28",
+			"current_position":"Reporting Intern",
+			"current_city":"Norfolk, VA",
+			"current_company": "The Virginian-Pilot",
+			"image_url": "kellyhobbs.jpeg"
 		}
 	},
 		{
-		"pk":1,
+		"pk": 4,
 		"model":"interactive_app.User",
 		"fields":{
-			"name":"",
-			"skillset":"",
-			"email":"",
-			"graduation_year":"",
-			"bio":"",
-			"major":"",
-			"portfolio":"",
-			"twitter":"",
-			"current_position":"",
-			"current_city":""
-
+			"name": "Megan Carlson",
+			"skillset": "Other",
+			"email": "mcarlson@gmail.com",
+			"graduation_year": "2014",
+			"bio": "Nullam posuere semper lorem eu volutpat. Pellentesque pretium non lorem non varius. Vivamus aliquet dolor ligula, sit amet accumsan elit porta id. Cras sit amet odio malesuada urna volutpat faucibus. Vestibulum pharetra, orci eu auctor sollicitudin, tortor enim scelerisque mi, vitae venenatis odio dui ac dolor. Etiam in aliquam tortor, eu porta odio. Maecenas iaculis tristique arcu, at molestie odio commodo et. Praesent diam sapien, pharetra at hendrerit quis, vulputate eu purus. Ut interdum cursus tortor. Aenean non commodo ipsum. Suspendisse a eros sodales, feugiat orci a, tincidunt lacus. Fusce quis nulla nibh. Ut scelerisque pretium orci et posuere. Etiam vulputate in metus id imperdiet. Mauris sollicitudin dui lacus, sit amet porttitor erat volutpat non. Phasellus nec arcu sollicitudin, ultrices urna quis, blandit enim.Fusce a lacinia elit. Donec vel luctus ligula.",
+			"major":"Journalism",
+			"portfolio":"http://www.thesddaniels.com/",
+			"twitter":"https://twitter.com/megancarlson_",
+			"current_position":"Fun Intern",
+			"current_city":"Washington, DC",
+			"current_company": "The Washington Post",
+			"image_url": "megancarlson.jpeg"
 		}
 	},
 		{
-		"pk":1,
+		"pk": 5,
 		"model":"interactive_app.User",
 		"fields":{
-			"name":"",
-			"skillset":"",
-			"email":"",
-			"graduation_year":"",
-			"bio":"",
-			"major":"",
-			"portfolio":"",
-			"twitter":"",
-			"current_position":"",
-			"current_city":""
-
+			"name": "Kevin Jones",
+			"skillset": "Other",
+			"email": "kjonezz@email.com",
+			"graduation_year": "2017",
+			"bio": "Nullam posuere semper lorem eu volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus varius sapien at semper. Nunc sit amet diam malesuada, malesuada ante in, porttitor augue. Aenean eu massa sit amet risus rhoncus cursus ac in est. Nam fermentum, felis eget consequat lobortis, risus tellus luctus erat, sed lobortis eros lorem in tortor. Vivamus lobortis, purus eu suscipit dignissim, nibh est congue felis, ut molestie lectus lorem eget justo. Sed faucibus scelerisque mi ac varius. Sed consectetur, magna quis molestie placerat, urna odio hendrerit nunc, eu consectetur sapien velit a nibh. Curabitur a mollis felis. Quisque vitae quam mi. Sed porta sed enim vestibulum faucibus. Sed feugiat interdum risus, nec ultricies ante vulputate nec. Fusce a lacinia elit. Donec vel luctus ligula.",
+			"major":"Journalism",
+			"portfolio":"http://www.kevdawg.com/",
+			"twitter":"https://twitter.com/Mr_KevinJones",
+			"current_position":"Research Intern",
+			"current_city":"Denver, CO",
+			"current_company": "The Denver Post",
+			"image_url": "kevinjones.jpeg"
 		}
 	}
-
-
 
 ]
