@@ -4,3 +4,10 @@
     width: 198px;
     height: 37px;
 }
+
+.org-box{
+	border-radius: 3px;
+	border: 1px solid gray;
+	height:200px;
+	width: 200px;
+}
