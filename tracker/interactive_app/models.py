@@ -79,3 +79,12 @@ class Organization(models.Model):
 class City(models.Model):
     name = models.TextField(null=True)
     state = models.TextField(null=True)
+    class Meta(object):
+        verbose_name_plural = "cities"
+        ordering = ('name',)
+    def __unicode__(self):
+        return self.name
+    def save(self, *args, **kwargs):
+        self.name=self.name.upper()
+        super(City, self).save(*args, **kwargs)
+
