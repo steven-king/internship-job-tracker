@@ -36,3 +36,16 @@ def organization(request,pk):
 	organization = get_object_or_404(Organization, id=pk)
 	return render(request, "interactive_app/organization.html", {'organization':organization})
 
+def organizationList(request):
+	organization_list = Organization.objects.all()
+	paginator = Paginator(organization_list, 100)
+	page = request.GET.get('page')
+	try:
+		organizations = paginator.page(page)
+	except PageNotAnInteger:
+		#if page is not an integer, deliver first page.
+		organizations = paginator.page(1)
+	except EmptyPage:
+		#i f page is out of range (eg 9000), deliver last page of results.
+		organizations = paginator.page(paginator.num_pages)
+	return render(request, "interactive_app/organization_list.html", {"organizations":organizations})
