@@ -1,0 +1,61 @@
+// Single primary color that all mixins use. Str8 ballin.
+@primary:        hsl(204, 59%, 58%);
+ 
+// Primary Variants -
+@primaryLight:   hsl(hue(@primary), 100%, 70%);
+@primaryDark:    hsl(hue(@primary), 60%, 40%);
+@primaryFaded:   hsl(hue(@primary), 60%, 65%);
+ 
+// 180degree Variants
+@variant:         spin((@primary), 180);
+@variantLight:    hsl(hue(@variant), 100%, 70%);
+@variantDark:     hsl(hue(@variant), 60%, 40%);
+@variantFaded:    hsl(hue(@variant), 60%, 65%);
+ 
+// 90degree Variants
+@corner:         spin((@primary), 70);
+@cornerLight:    hsl(hue(@corner), 100%, 70%);
+@cornerDark:     hsl(hue(@corner), 60%, 40%);
+@cornerFaded:    hsl(hue(@corner), 60%, 65%);
+
+
+//brand colors
+@brand-primary:         #54A0D3;
+@brand-success:         #223F53;
+@brand-info:            #9AC0DA;
+@brand-warning:         #4179A0;
+@brand-danger:          #DA706F;
+
+
+
+//basic html vars
+
+@text-color: #666;
+@link-color: @primary;
+@link-color-hover: @primaryLight;
+
+@body-bg: #CCC;
+
+
+@grid-gutter-width: 0px;
+@panel-body-padding: 15px;
+
+@padding-base-vertical:     6px;
+@padding-base-horizontal:   12px;
+
+@padding-large-vertical:    10px;
+@padding-large-horizontal:  16px;
+
+@padding-small-vertical:    5px;
+@padding-small-horizontal:  10px;
+
+@padding-xs-vertical:       1px;
+@padding-xs-horizontal:     5px;
+
+@line-height-large:         1.33;
+@line-height-small:         1.5;
+
+@border-radius-base:       0px;
+@border-radius-large:       0px;
+@border-radius-small:       0px;
+
