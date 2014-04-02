@@ -1,0 +1,76 @@
+[
+	{
+		"pk": 0,
+		"model":"interactive_app.Organization",
+		"fields":{
+			"name": "The Washington Post",
+			"url": "http://www.washingtonpost.com/",
+                        "bio": "The Washington Post (WP) is an American daily newspaper. It is the most widely circulated newspaper published in Washington, D.C., and was founded in 1877, making it the area's oldest extant newspaper. Located in the capital city of the United States, the newspaper has a particular emphasis on national politics. Daily editions are printed for the District of Columbia, Maryland and Virginia. The newspaper is published as a broadsheet, with photographs printed both in color and in black and white. In 2008, Marcus Brauchli replaced long-time executive editor Leonard Downie, Jr., serving publisher Katharine Weymouth. In November 2012, Weymouth announced that Boston Globe editor Martin Baron would take over Brauchli's position on January 2, 2013. In the early 1970s, in the best known episode in the recent history of The Post, reporters Bob Woodward and Carl Bernstein led the American press's investigation into what became known as the Watergate scandal; reporting in the newspaper greatly contributed to the resignation of President Richard Nixon. In years since, its investigations have led to increased review of the Walter Reed Army Medical Center. The newspaper has won 47 Pulitzer Prizes. This includes six separate Pulitzers awarded in 2008, the second-highest number ever given to a single newspaper in one year. The Post has also received 18 Nieman Fellowships and 368 White House News Photographers Association awards, among others. ",
+                        "contact": "national@washpost.com",
+                        "city": "Washington, DC",
+                        "opening": "http://careers.washingtonpost.com/content/student-internships",
+                        "twitter": "https://twitter.com/washingtonpost",
+                        "image_url": "washingtonpost.jpg"
+		}
+	},
+        
+        	{
+		"pk": 1,
+		"model":"interactive_app.Organization",
+		"fields":{
+			"name": "The Virginian-Pilot",
+			"url": "http://pilotonline.com",
+                        "bio": "The Virginian-Pilot (commonly called 'The Pilot') is a daily newspaper based in Norfolk, Virginia, and serving the Hampton Roads metropolitan area, southeastern Virginia, the Eastern Shore of Virginia, and northeastern North Carolina. The flagship property of Landmark Media Enterprises, The Pilot is Virginia's largest daily metro paper. It is sometimes erroneously called The VIRGINIA Pilot. The paper was among the first available online as a part of the Compuserve experiment in early 1980s where the paper and 10 others around the country transmitted text versions of stories daily to Compuserve's host computers in Ohio. In 1993 The Virginian-Pilot was one of the first newspapers in the country to launch a sister website, Pilotonline.com.",
+                        "contact": "denis.finley@pilotonline.com",
+                        "city": "Norfolk, VA",
+                        "opening": "https://mypilotmediacareers.silkroad.com/pilotmediaext/EmploymentListings.html",
+                        "twitter": "https://twitter.com/PilotNews",
+                        "image_url": "virginianpilot.jpg"
+		}
+	},
+        
+	{
+		"pk": 2,
+		"model":"interactive_app.Organization",
+		"fields":{
+			"name": "The Denver Post",
+			"url": "http://www.denverpost.com/",
+                        "bio": "The Denver Post is a daily newspaper that has been published in Denver, Colorado, United States, since 1892. As the major newspaper in Denver, the Post ranks 12th daily and 10th Sunday of the largest-circulation newspapers in the United States. As of March 2013, it has an average weekday circulation of 416,676 and Sunday circulation of 626,875. The Post is the flagship newspaper of MediaNews Group Inc., founded in 1983 by William Dean Singleton and Richard Scudder. MediaNews is today one of the nation's largest newspaper chains, publisher of 61 daily newspapers and more than 120 non-daily publications in 13 states. Current columnists include Woody Paige in sports, Tom Noel on local history, Mike Rosen on the commentary page. Notable former columnists include David Harsanyi and Al Lewis, whose work still appears in the paper as a feature from Dow Jones Newswires. The Post has stated its mission as, 'To provide you with the most relevant, current news and information about Denver, Colorado and the Rocky Mountain West on any platform you choose, any time you want.'",
+                        "contact": "reach@denverpost.com",
+                        "city": "Denver, CO",
+                        "opening": "http://ch.tbe.taleo.net/CH05/ats/careers/jobSearch.jsp?org=JOURNALREGISTER&cws=37",
+                        "twitter": "https://twitter.com/denverpost",
+                        "image_url": "denverpost.jpg"
+		}
+	},
+        
+        	{
+		"pk": 3,
+		"model":"interactive_app.Organization",
+		"fields":{
+			"name": "The News and Observer",
+			"url": "http://www.newsobserver.com/",
+                        "bio": "The News & Observer is the regional daily newspaper of the Research Triangle area of the U.S. State of North Carolina. The N&O, as it is popularly called, is based in Raleigh and also covers Durham, Cary, and Chapel Hill. The paper also has substantial readership in most of the state east of Winston-Salem. It is the state's second-largest newspaper, after The Charlotte Observer. The paper has won three Pulitzer Prizes, most recently in 1996 for a computer-assisted investigation of the North Carolina hog industry. The News & Observer Publishing Co. also publishes several non-daily local newspapers,including The Cary News, The Chapel Hill News, the Southwest Wake News, and The Herald in Johnston County. The newspaper became an online service provider and offered one of the first World Wide Web news sites with Nando.net in 1994. In 1995, the paper was bought by McClatchy Co. of Sacramento, California. The publisher is Orage Quarles, who was named the nation's outstanding publisher by Editor and Publisher magazine in 2002. In 2007, John Drescher was named executive editor, succeeding Melanie Sill.",
+                        "contact": "jackie.stark@newsobserver.com",
+                        "city": "Raleigh, NC",
+                        "opening": "http://newsobserver.theresumator.com/apply",
+                        "twitter": "https://twitter.com/newsobserver",
+                        "image_url": "newsobserver.jpg"
+		}
+	},
+        
+        	{
+		"pk": 4,
+		"model":"interactive_app.Organization",
+		"fields":{
+			"name": "The Miami Herald",
+			"url": "http://www.miamiherald.com/",
+                        "bio": "The Miami Herald is a daily newspaper owned by The McClatchy Company headquartered in Doral, Florida, a city in western Miami-Dade County near Miami. Founded in 1903, it is the largest newspaper in South Florida, serving Miami-Dade, Broward County, and Monroe County. It also circulates throughout Latin America and the Caribbean. The newspaper has been awarded 20 Pulitzer Prizes since beginning publication in 1903. Well-known columnists are Pulitzer-winning political commentator Leonard Pitts, Jr., Pulitzer-winning reporter Mirta Ojito, humorist Dave Barry and novelist Carl Hiaasen. Other columnists include Fred Grimm and Edwin Pope. David Landsberg is the publisher, and Aminda Marqués Gonzalez is the executive editor. The newspaper averages 88 pages daily and 212 pages Sunday. The Miami Herald's coverage of Latin American and Hispanic affairs is widely considered among the best of U.S. newspapers. The Miami Herald also participates in Politifact Florida a website that focuses on the truth about Florida issues; with the Tampa Bay Times, which created the Politifact concept. The Miami Herald and the Times share resources on news stories related to Florida.",
+                        "contact": "ahernandez@MiamiHerald.com",
+                        "city": "Miami, FL",
+                        "opening": "http://www.careerbuilder.com/Jobs/Company/CCBCONVXXXXX423122/Miami-Herald-Media-Company/",
+                        "twitter": "https://twitter.com/MiamiHerald",
+                        "image_url": "miamiherald.jpg"
+		}
+	}
+]

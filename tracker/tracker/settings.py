@@ -149,7 +149,6 @@ INSTALLED_APPS = (
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.facebook',
-    'south',
 )
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
