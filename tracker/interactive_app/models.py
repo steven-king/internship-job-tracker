@@ -49,10 +49,12 @@ class User(models.Model):
     graduation_year = models.TextField(null=True)
     bio = models.TextField(null=True)
     major = models.TextField(null=True)
+    img_url = models.TextField(null=True)
     portfolio = models.TextField(null=True)
     twitter = models.TextField(null=True)
     current_position = models.TextField(null=True)
     current_city = models.TextField(null=True)
+    corrent_company = models.TextField(null=True)
     class Meta(object):
         verbose_name_plural = "Users"
         ordering = ('name',)
@@ -75,10 +77,23 @@ class Organization(models.Model):
     city = models.TextField(null=True)
     opening = models.TextField(null=True)
     twitter = models.TextField(null=True)
+    img_url = models.TextField(null=True)
+    lat = models.TextField(null=True)
+    longitude = models.TextField(null=True)
+    class Meta(object):
+        verbose_name_plural = "organizations"
+        ordering = ('name',)
+    def __unicode__(self):
+        return self.name
+    def save(self, *args, **kwargs):
+        self.name=self.name.upper()
+        super(Organization, self).save(*args, **kwargs)
 
 class City(models.Model):
     name = models.TextField(null=True)
     state = models.TextField(null=True)
+    lat = models.TextField(null=True)
+    longitude = models.TextField(null=True)
     class Meta(object):
         verbose_name_plural = "cities"
         ordering = ('name',)
