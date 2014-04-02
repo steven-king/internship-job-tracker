@@ -1,56 +1,56 @@
 [
 	{
 		"pk": 0,
-		"model":"interactive_app.User",
+		"model":"interactive_app.City",
 		"fields":{
 			"name": "Washington",
                         "state": "The District of Columbia",
                         "latlong": "38.907231,-77.036464",
-                        "image_url": "washingtondc.jpg",
+                        "image_url": "washingtondc.jpg"
 		}
 	},
         
         	{
 		"pk": 1,
-		"model":"interactive_app.User",
+		"model":"interactive_app.City",
 		"fields":{
 			"name": "Norfolk",
                         "city": "Virginia",
                         "latlong": "36.850769,-76.285873",
-                        "image_url": "norfolkva.jpg",
+                        "image_url": "norfolkva.jpg"
 		}
 	},
         
 	{
 		"pk": 2,
-		"model":"interactive_app.User",
+		"model":"interactive_app.City",
 		"fields":{
 			"name": "Denver",
                         "state": "Colorado",
                         "latlong": "39.737567,-104.984718",
-                        "image_url": "denverco.jpg",
+                        "image_url": "denverco.jpg"
 		}
 	},
         
         	{
 		"pk": 3,
-		"model":"interactive_app.User",
+		"model":"interactive_app.City",
 		"fields":{
 			"name": "Raleigh",
                         "state": "North Carolina",
                         "latlong": "35.779590,-78.638179",
-                        "image_url": "raleighnc.jpg",
+                        "image_url": "raleighnc.jpg"
 		}
 	},
         
         	{
 		"pk": 4,
-		"model":"interactive_app.User",
+		"model":"interactive_app.City",
 		"fields":{
 			"name": "Miami",
                         "state": "Florida",
                         "latlong": "25.788969,-80.226439",
-                        "image_url": "miamifl.jpg",
+                        "image_url": "miamifl.jpg"
 		}
 	}
 ]
