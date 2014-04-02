@@ -23,24 +23,27 @@
 </body>
 
 <body>
-<div class="container">
-<a href="/city">Link</a>
-<h4>I am a</h4>
-<a href="#">developer</a>
-<a href="#">designer</a>
-<a href="#">photographer</a>
-<a href="#">videographer</a>
+<div class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">I am a... <b class="caret"></b></a>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+    <li><a href="#">developer</a></li>
+    <li><a href="#">designer</a></li>
+    <li><a href="#">photographer</a></li>
+    <li><a href="#">videographer</a></li>
+  </ul>
+</div>
 <h4>Interested in a(n)</h4>
 <a href="#">Job</a> | <a href="#">Internship</a>
 <h4>In</h4>
+<a href="/city"> Cities </a>
 {% for city in citys %}
 	<p> {{ city.name }}</p>
 {% endfor %}
 <h4>At</h4>
+<a href="/organization">Organization</a>
 {% for organization in organizations %}
 	<p> {{ organization.name }} </p>
 {% endfor %}
-</div>
 </body>
 
 {% endblock %}
