@@ -1,7 +1,7 @@
 [
 	{
 		"pk": 0,
-		"model":"interactive_app.Organization",
+		"model":"interactive_app.User",
 		"fields":{
 			"name": "The Washington Post",
 			"url": "http://www.washingtonpost.com/",
@@ -10,13 +10,13 @@
                         "city": "Washington, DC",
                         "opening": "http://careers.washingtonpost.com/content/student-internships",
                         "twitter": "https://twitter.com/washingtonpost",
-                        "image_url": "washingtonpost.jpg"
+                        "image_url": "washingtonpost.jpg",
 		}
 	},
         
         	{
 		"pk": 1,
-		"model":"interactive_app.Organization",
+		"model":"interactive_app.User",
 		"fields":{
 			"name": "The Virginian-Pilot",
 			"url": "http://pilotonline.com",
@@ -25,13 +25,13 @@
                         "city": "Norfolk, VA",
                         "opening": "https://mypilotmediacareers.silkroad.com/pilotmediaext/EmploymentListings.html",
                         "twitter": "https://twitter.com/PilotNews",
-                        "image_url": "virginianpilot.jpg"
+                        "image_url": "virginianpilot.jpg",
 		}
 	},
         
 	{
 		"pk": 2,
-		"model":"interactive_app.Organization",
+		"model":"interactive_app.User",
 		"fields":{
 			"name": "The Denver Post",
 			"url": "http://www.denverpost.com/",
@@ -40,13 +40,13 @@
                         "city": "Denver, CO",
                         "opening": "http://ch.tbe.taleo.net/CH05/ats/careers/jobSearch.jsp?org=JOURNALREGISTER&cws=37",
                         "twitter": "https://twitter.com/denverpost",
-                        "image_url": "denverpost.jpg"
+                        "image_url": "denverpost.jpg",
 		}
 	},
         
         	{
 		"pk": 3,
-		"model":"interactive_app.Organization",
+		"model":"interactive_app.User",
 		"fields":{
 			"name": "The News and Observer",
 			"url": "http://www.newsobserver.com/",
@@ -55,13 +55,13 @@
                         "city": "Raleigh, NC",
                         "opening": "http://newsobserver.theresumator.com/apply",
                         "twitter": "https://twitter.com/newsobserver",
-                        "image_url": "newsobserver.jpg"
+                        "image_url": "newsobserver.jpg",
 		}
 	},
         
         	{
 		"pk": 4,
-		"model":"interactive_app.Organization",
+		"model":"interactive_app.User",
 		"fields":{
 			"name": "The Miami Herald",
 			"url": "http://www.miamiherald.com/",
@@ -70,7 +70,7 @@
                         "city": "Miami, FL",
                         "opening": "http://www.careerbuilder.com/Jobs/Company/CCBCONVXXXXX423122/Miami-Herald-Media-Company/",
                         "twitter": "https://twitter.com/MiamiHerald",
-                        "image_url": "miamiherald.jpg"
+                        "image_url": "miamiherald.jpg",
 		}
 	}
 ]
