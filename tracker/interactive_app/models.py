@@ -54,7 +54,7 @@ class User(models.Model):
     twitter = models.TextField(null=True)
     current_position = models.TextField(null=True)
     current_city = models.TextField(null=True)
-    corrent_company = models.TextField(null=True)
+    current_company = models.TextField(null=True)
     class Meta(object):
         verbose_name_plural = "Users"
         ordering = ('name',)
@@ -73,11 +73,11 @@ class Organization(models.Model):
     url = models.TextField(null=True)
     bio = models.TextField(null=True)
     contact = models.TextField(null=True)
-    department = models.TextField(null=True)
     city = models.TextField(null=True)
     opening = models.TextField(null=True)
     twitter = models.TextField(null=True)
     img_url = models.TextField(null=True)
+    address = models.TextField(null=True)
     lat = models.TextField(null=True)
     longitude = models.TextField(null=True)
     class Meta(object):
@@ -94,6 +94,7 @@ class City(models.Model):
     state = models.TextField(null=True)
     lat = models.TextField(null=True)
     longitude = models.TextField(null=True)
+    img_url = models.TextField(null = True)
     class Meta(object):
         verbose_name_plural = "cities"
         ordering = ('name',)

@@ -1,22 +1,24 @@
 [
 	{
 		"pk": 0,
-		"model":"interactive_app.User",
+		"model":"interactive_app.Organization",
 		"fields":{
 			"name": "The Washington Post",
 			"url": "http://www.washingtonpost.com/",
-                        "bio": "The Washington Post (WP) is an American daily newspaper. It is the most widely circulated newspaper published in Washington, D.C., and was founded in 1877, making it the area's oldest extant newspaper. Located in the capital city of the United States, the newspaper has a particular emphasis on national politics. Daily editions are printed for the District of Columbia, Maryland and Virginia. The newspaper is published as a broadsheet, with photographs printed both in color and in black and white. In 2008, Marcus Brauchli replaced long-time executive editor Leonard Downie, Jr., serving publisher Katharine Weymouth. In November 2012, Weymouth announced that Boston Globe editor Martin Baron would take over Brauchli's position on January 2, 2013. In the early 1970s, in the best known episode in the recent history of The Post, reporters Bob Woodward and Carl Bernstein led the American press's investigation into what became known as the Watergate scandal; reporting in the newspaper greatly contributed to the resignation of President Richard Nixon. In years since, its investigations have led to increased review of the Walter Reed Army Medical Center. The newspaper has won 47 Pulitzer Prizes. This includes six separate Pulitzers awarded in 2008, the second-highest number ever given to a single newspaper in one year. The Post has also received 18 Nieman Fellowships and 368 White House News Photographers Association awards, among others. ",
+                        "bio": "The Washington Post (WP) is an American daily newspaper. It is the most widely circulated newspaper published in Washington, D.C., and was founded in 1877, making it the area's oldest extant newspaper. Located in the capital city of the United States, the newspaper has a particular emphasis on national politics. Daily editions are printed for the District of Columbia, Maryland and Virginia. The newspaper is published as a broadsheet, with photographs printed both in color and in black and white. In 2008, Marcus Brauchli replaced long-time executive editor Leonard Downie, Jr., serving publisher Katharine Weymouth. In November 2012, Weymouth announced that Boston Globe editor Martin Baron would take over Brauchli's position on January 2, 2013. In the early 1970s, in the best known episode in the recent history of The Post, reporters Bob Woodward and Carl Bernstein led the American press's investigation into what became known as the Watergate scandal; reporting in the newspaper greatly contributed to the resignation of President Richard Nixon. In years since, its investigations have led to increased review of the Walter Reed Army Medical Center. The newspaper has won 47 Pulitzer Prizes. This includes six separate Pulitzers awarded in 2008, the second-highest number ever given to a single newspaper in one year. The Post has also received 18 Nieman Fellowships and 368 White House News Photographers Association awards, among others.",
                         "contact": "national@washpost.com",
                         "city": "Washington, DC",
                         "opening": "http://careers.washingtonpost.com/content/student-internships",
                         "twitter": "https://twitter.com/washingtonpost",
-                        "image_url": "washingtonpost.jpg",
+                        "img_url": "washingtonpost.jpg",
+			"address": "1150 15th Street, N.W. Washington, D.C. 20071",
+			"lat": "38.904292",
+			"longitude": "-77.035298"
 		}
-	},
-        
+	},  
         	{
 		"pk": 1,
-		"model":"interactive_app.User",
+		"model":"interactive_app.Organization",
 		"fields":{
 			"name": "The Virginian-Pilot",
 			"url": "http://pilotonline.com",
@@ -25,13 +27,15 @@
                         "city": "Norfolk, VA",
                         "opening": "https://mypilotmediacareers.silkroad.com/pilotmediaext/EmploymentListings.html",
                         "twitter": "https://twitter.com/PilotNews",
-                        "image_url": "virginianpilot.jpg",
+                        "img_url": "virginianpilot.jpg",
+			"address": "150 West Brambleton Avenue, Norfolk, Virginia 23510",
+			"lat": "36.854752",
+			"longitude": "-76.289879"
 		}
-	},
-        
-	{
+	},       
+		{
 		"pk": 2,
-		"model":"interactive_app.User",
+		"model":"interactive_app.Organization",
 		"fields":{
 			"name": "The Denver Post",
 			"url": "http://www.denverpost.com/",
@@ -40,13 +44,15 @@
                         "city": "Denver, CO",
                         "opening": "http://ch.tbe.taleo.net/CH05/ats/careers/jobSearch.jsp?org=JOURNALREGISTER&cws=37",
                         "twitter": "https://twitter.com/denverpost",
-                        "image_url": "denverpost.jpg",
+                        "img_url": "denverpost.jpg",
+			"address": "101 W. Colfax Avenue, Denver, CO 80202",
+			"lat": "39.740854",
+			"longitude": "-104.988134"
 		}
-	},
-        
+	},        
         	{
 		"pk": 3,
-		"model":"interactive_app.User",
+		"model":"interactive_app.Organization",
 		"fields":{
 			"name": "The News and Observer",
 			"url": "http://www.newsobserver.com/",
@@ -55,13 +61,15 @@
                         "city": "Raleigh, NC",
                         "opening": "http://newsobserver.theresumator.com/apply",
                         "twitter": "https://twitter.com/newsobserver",
-                        "image_url": "newsobserver.jpg",
+                        "img_url": "newsobserver.jpg",
+			"address": "215 South McDowell Street, Raleigh, North Carolina 27601",
+			"lat": "35.777523",
+			"longitude": "-78.641462"
 		}
-	},
-        
+	},      
         	{
 		"pk": 4,
-		"model":"interactive_app.User",
+		"model":"interactive_app.Organization",
 		"fields":{
 			"name": "The Miami Herald",
 			"url": "http://www.miamiherald.com/",
@@ -70,7 +78,10 @@
                         "city": "Miami, FL",
                         "opening": "http://www.careerbuilder.com/Jobs/Company/CCBCONVXXXXX423122/Miami-Herald-Media-Company/",
                         "twitter": "https://twitter.com/MiamiHerald",
-                        "image_url": "miamiherald.jpg",
+                        "img_url": "miamiherald.jpg",
+			"address": "3511 NW 91 Avenue, Doral, Florida 33172",
+			"lat": "25.806992",
+			"longitude": "-80.344217"
 		}
 	}
 ]
