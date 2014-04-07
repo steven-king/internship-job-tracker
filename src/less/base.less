@@ -1,0 +1,30 @@
+// Variables
+@link-color:        #9FC5FF; // Carolina blue
+@link-color-hover:  darken(@link-color, 10%);
+@font:              'Source Sans Pro';
+
+
+body {
+    font-family: @font, sans-serif;
+}
+
+a,
+.link {
+  color: @link-color;
+}
+a:hover {
+  color: @link-color-hover;
+  text-decoration: none;
+}
+
+.openfield {
+    display:                block;
+    padding:                0 0 0 100px;
+}
+
+.navbar-inverse .navbar-nav li,
+a{
+    background-color:      #ffffff;
+    color:                  @link-color;
+}
+
