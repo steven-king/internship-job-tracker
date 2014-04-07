@@ -1,5 +1,14 @@
-body {
-  font-family: 'Source Sans Pro', sans-serif;
+#base h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+li {
+  font-family: 'Source Sans Pro';
+  color: #4e4947;
 }
 a,
 .link {
@@ -13,8 +22,16 @@ a:hover {
   display: block;
   padding: 0 0 0 100px;
 }
-.navbar-inverse .navbar-nav li,
-a {
+.navbar-inverse .navbar-nav li {
+  color: #9fc5ff;
+}
+.navbar-inverse .navbar-nav a {
   background-color: #ffffff;
   color: #9fc5ff;
+}
+.preferences {
+  color: #ffffff;
+}
+dropdown {
+  padding: 5px 25px 5px 25px;
 }

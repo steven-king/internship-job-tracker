@@ -1,20 +1,34 @@
-// Variables
-@link-color:        #9FC5FF; // Carolina blue
-@link-color-hover:  darken(@link-color, 10%);
-@font:              'Source Sans Pro';
+// Variables - colors
+
+// main palette
+@off-white:              #F8F3E8;
+@light-gray:             #4E4947;
+@dark-gray:              #242726;
+@carolina-blue:          #9FC5FF;
+@navy-blue:              #4B5485;
+
+// extra color things
+@link-color:            #9FC5FF; // Carolina blue
+@link-color-hover:      darken(@link-color, 10%);
 
 
-body {
-    font-family: @font, sans-serif;
+// type
+@font:                  'Source Sans Pro';
+
+#base
+    
+h1, h2, h3, h4, h5, h6, p, span, li {
+    font-family: @font;
+    color: @light-gray;
 }
 
 a,
 .link {
-  color: @link-color;
+  color:                    @link-color;
 }
 a:hover {
-  color: @link-color-hover;
-  text-decoration: none;
+  color:                    @link-color-hover;
+  text-decoration:          none;
 }
 
 .openfield {
@@ -22,9 +36,21 @@ a:hover {
     padding:                0 0 0 100px;
 }
 
-.navbar-inverse .navbar-nav li,
-a{
+.navbar-inverse .navbar-nav {
+ li{
+    color:                 @link-color;
+ }
+ a{
     background-color:      #ffffff;
-    color:                  @link-color;
+    color:                 @link-color;
+ }
+}
+
+.preferences {
+    color:              #ffffff;
+}
+
+dropdown {
+    padding:            5px 25px 5px 25px;
 }
 

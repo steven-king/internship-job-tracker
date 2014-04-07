@@ -16,7 +16,7 @@
 <body>
 {% block header %}
 <header>
-		<nav class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
 		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -35,11 +35,14 @@
 			<li class="active"><a href="#">About</a></li>
 		      </ul>
 		      
-		     <!-- Here goes the user preferences -->
+		     <!-- Here goes the user preferences  -->
+		     <!-- If not logged in, they'll be prompted to do so.  -->
+		     
 		     <ul class="nav navbar-nav preferences">
-			<li><a href="#">Design</a></li>
-			<li><a href="#">Boston</a></li>
-			<li><a href="#">The Boston Globe</a></li>
+			<li><span><a href="#">Log In</a>to store your preferences, or explore internships by <a href="#">type</a>, <a href="#">location</a>, or <a href="#">organization</a>.</span></li>
+			<!--<li><a href="#">I'm a</a></li>
+			<li><a href="#">Cities</a></li>
+			<li><a href="#">Organizations</a></li>-->
 		      </ul>
 		      
 		      
