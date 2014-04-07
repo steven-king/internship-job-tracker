@@ -3,12 +3,12 @@
 {% block content %}
 <div id="city">
 	<div class="container">
-	<h4>Organizations in City</h4>
+	<h2>Cities</h2>
 	{% for city in cities %}
-		<div class="col-md-3 list-box">
+		<a href="{{ city.id }}" class="hover"><div class="col-md-3 col-sm-6 col-xs-12 list-box">
 			<h3>{{ city.name }}</h3>
-			<h5> {{city.state}} </h5>
-		</div>
+			<h5>{{city.state}}</h5>
+		</div></a>
 			{% endfor %}
 	</div>
 
