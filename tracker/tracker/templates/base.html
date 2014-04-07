@@ -10,11 +10,13 @@
     <link href="/static_media/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="/static_media/css/style.css" rel="stylesheet">
     <link href="/static_media/css/city.css" rel ="stylesheet">
+    <link href="/static_media/css/base.css" rel ="stylesheet">
     <title>{% block title %}Internship-Job Tracker{% endblock %}</title>
 </head>
 
 <body>
 {% block header %}
+<div id="base">
 <header>
 		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
 		  <div class="container-fluid">
@@ -68,6 +70,7 @@
 		  </div><!-- /.container-fluid -->
 		</nav>
 </header>
+</div>
 {% endblock %}
 <div class="container">
     {% block content %}

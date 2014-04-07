@@ -1,37 +1,46 @@
 #base h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span,
-li {
+#base h2,
+#base h3,
+#base h4,
+#base h5,
+#base h6,
+#base p {
   font-family: 'Source Sans Pro';
-  color: #4e4947;
+  color: #242726;
 }
-a,
-.link {
+#base h1 a,
+#base h2 a,
+#base h3 a,
+#base h4 a,
+#base h5 a,
+#base h6 a,
+#base p a,
+#base h1 .link,
+#base h2 .link,
+#base h3 .link,
+#base h4 .link,
+#base h5 .link,
+#base h6 .link,
+#base p .link {
   color: #9fc5ff;
 }
-a:hover {
+#base h1 a:hover,
+#base h2 a:hover,
+#base h3 a:hover,
+#base h4 a:hover,
+#base h5 a:hover,
+#base h6 a:hover,
+#base p a:hover {
   color: #6ca6ff;
   text-decoration: none;
 }
-.openfield {
+#base h1 .openfield,
+#base h2 .openfield,
+#base h3 .openfield,
+#base h4 .openfield,
+#base h5 .openfield,
+#base h6 .openfield,
+#base p .openfield {
   display: block;
   padding: 0 0 0 100px;
-}
-.navbar-inverse .navbar-nav li {
-  color: #9fc5ff;
-}
-.navbar-inverse .navbar-nav a {
-  background-color: #ffffff;
-  color: #9fc5ff;
-}
-.preferences {
-  color: #ffffff;
-}
-dropdown {
-  padding: 5px 25px 5px 25px;
 }
