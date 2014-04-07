@@ -1,3 +1,25 @@
-a{
-	color: red;
+@import 'bootstrap/bootstrap.less'; 
+
+#user{
+	@font: 'Source Sans Pro', sans-serif;
+	@profile-box: #4E4946;
+	@background: #D5D6D8;
+	@profile-font-color: #EFF0F2;
+	@base-font-color: #484847;
+
+	a{
+		color: red;
+	}
+
+	h1, h2, h3, h4, h5, h6, p{
+		font-family: @font;
+		color: @base-font-color;
+	}
+
+	.profile-box{
+		background-color:@profile-box;
+		h1, h2, h3, h4, h5, h6, p{
+			color:@profile-font-color
+		}
+	}
 }

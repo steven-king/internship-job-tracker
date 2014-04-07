@@ -14,8 +14,8 @@ def userList(request):
 	user_list = User.objects.all()
 	return render(request, 'interactive_app/user_list.html', {"users":users})
 
-def city(request):
-	city = get_object_or_404(City)
+def city(request, pk):
+	city = get_object_or_404(City, id=pk)
 	return render(request, "interactive_app/city.html", {'city':city})
 
 def cityList(request):
