@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-
+{% load staticfiles %}
 {% block content %}
 
 <div id="user">
@@ -8,12 +8,13 @@
 			<div class="profile-box">
 				<div class="img-info-box">
 					<div class="img-box">
+						<img src='{{ STATIC_URL }}img/{{ user.img_url }}'/>
 					</div>
 					 <h3>{{ user.name }}</h3>
-					 <p>{{ user.current_city }}<p>
+					 <p class="copy"><span class="glyphicon glyphicon-map-marker"></span>{{ user.current_city }}<p>
 			 	</div>
 			 	<div class="row">
-			 		<div class="col-md-4 col-sm-4 col-xs-4">
+			 		<div class="col-md-3 col-sm-4 col-xs-4">
 					 	<p>HOMETOWN:</p> 
 					 	<p>MAJOR:</p> 
 					 	<p>YEAR:</p>
@@ -33,13 +34,17 @@
 			</div>
 		</div>
 		<div class="col-md-7 col-sm-7">
-			<h3>EXPERIENCE</h3>
-			<hr />
-			<div class="row">
-				<div class="col-md-12">
-					<p>COMPANY: <span class="copy">{{ user.current_company }}</span></p>
-					<p>CITY: <span class="copy">{{ user.current_city }}</span></p>
-					<p>POSITION: <span class="copy">{{ user.current_position }}</span></p>
+			<div class="experience-box">
+				<h3><strong>EXPERIENCE</strong></h3>
+				<hr />
+				<div class="row">
+					<div class="col-md-12">
+						<p>COMPANY: <span class="copy">{{ user.current_company }}</span></p>
+						<p>CITY: <span class="copy">{{ user.current_city }}</span></p>
+						<p>POSITION: <span class="copy">{{ user.current_position }}</span></p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 		

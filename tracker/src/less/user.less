@@ -1,5 +1,3 @@
-@import 'bootstrap/bootstrap.less'; 
-
 @background: #D5D6D8;
 body{
 	background-color: @background;
@@ -18,7 +16,8 @@ body{
 
 	a{
 		text-decoration: none;
-		color: inherit;
+		color: @profile-font-color;
+		font-family: inherit;
 		:hover{
 			text-decoration: underline;
 		}
@@ -37,25 +36,20 @@ body{
 	.profile-box{
 		background-color:@profile-box;
 		padding: 10px;
+		padding-bottom: 50px;
 		line-height: 1em;
+		height: 100%;
 		h3, p{
 			color:@profile-font-color
 		}
 	}
 
 	.img-box{
-		height: 100px;
-		width: 100px;
+		height: 150px;
+		width: 150px;
 		margin-left: auto;
 		margin-right: auto;
 		border: 1px white solid;
-	}
-
-	.read-more{
-		a{
-			color: @profile-font-color;
-			text-decoration: none;
-		}
 	}
 	.img-info-box{
 		text-align: center;

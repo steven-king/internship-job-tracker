@@ -1,1 +1,1 @@
-$(".article").readmore({maxHeight:200,heightMargin:16,moreLink:'<a class="read-more" href="#">Read More</a>',lessLink:'<a class="read-more" href="#">Close</a>',afterToggle:function(e,a,r){r||$("html, body").animate({scrollTop:a.offset().top},{duration:100})}});
+$(".article").readmore({maxHeight:100,heightMargin:16,moreLink:'<a class="read-more" href="#">Read More</a>',lessLink:'<a class="read-more" href="#">Close</a>',afterToggle:function(e,a,r){r||$("html, body").animate({scrollTop:a.offset().top},{duration:100})}});
