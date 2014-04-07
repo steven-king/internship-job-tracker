@@ -1,0 +1,46 @@
+body {
+  background-color: #d5d6d8;
+}
+#user a {
+  text-decoration: none;
+  color: #eff0f2;
+  font-family: inherit;
+}
+#user a :hover {
+  text-decoration: underline;
+}
+#user h1,
+#user h2,
+#user h3,
+#user h4,
+#user h5,
+#user h6,
+#user p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #484847;
+  font-weight: 600;
+}
+#user .copy {
+  font-weight: 400;
+}
+#user .profile-box {
+  background-color: #4e4946;
+  padding: 10px;
+  padding-bottom: 50px;
+  line-height: 1em;
+  height: 100%;
+}
+#user .profile-box h3,
+#user .profile-box p {
+  color: #eff0f2;
+}
+#user .img-box {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px white solid;
+}
+#user .img-info-box {
+  text-align: center;
+}
