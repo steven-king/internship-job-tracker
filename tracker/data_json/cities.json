@@ -4,7 +4,7 @@
 		"model":"interactive_app.City",
 		"fields":{
 			"name": "Washington",
-                        "state": "The District of Columbia",
+                        "state": "District of Columbia",
                         "lat": "38.907231",
 			"longitude": "-77.036464",
                         "img_url": "washingtondc.jpg"
