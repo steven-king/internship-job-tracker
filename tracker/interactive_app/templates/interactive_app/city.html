@@ -1,4 +1,23 @@
-{% extends base.html %}
-	<h5>Welcome to {{ city.name }}!</h5>
-	<h2>What are you looking for?</h2>
-	<p>List of internship opportunities here</p>
+{% extends "base.html" %}
+
+
+{% block content %}
+<div id="city">
+    <div class="row">
+        <h1>Welcome to {{ city.name }}!</h1>
+        <h2>What are you looking for?</h2>
+        
+        
+        <div class="col-md-6 col-sm-3">
+            <h3>This is a test of h3</h3>
+            <h4>Hey we may need an h4</h4>
+            <h5>We may need an h5 also</h5>
+            <h6>This is a teeny little h6</h6>
+            <p>List of internship opportunities here</p>
+        </div>
+        <div class="col-md-6">
+            <img class="city_map" src="http://api.tiles.mapbox.com/v3/afortune906.hnidfk42/{{ city.longitude }},{{ city.lat }},13/500x300.jpg"
+        </div>
+    </div>
+</div>
+{% endblock %}

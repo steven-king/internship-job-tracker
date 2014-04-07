@@ -14,7 +14,7 @@
 			"current_position":"Graphics Intern",
 			"current_city":"Washington, DC",
 			"current_company": "The Washington Post",
-			"image_url": "anniedaniel.jpeg"
+			"img_url": "anniedaniel.jpeg"
 		}
 	},
 		{
@@ -32,7 +32,7 @@
 			"current_position":"Photo Intern",
 			"current_city":"Raleigh, NC",
 			"current_company": "The News and Observer",
-			"image_url": "jeffbowman.jpg"
+			"img_url": "jeffbowman.jpg"
 		}
 	},
 		{
@@ -50,7 +50,7 @@
 			"current_position":"Interactive Design Intern",
 			"current_city":"Miami, FL",
 			"current_company": "The Miami Herald",
-			"image_url": "jasonmiller.jpeg"
+			"img_url": "jasonmiller.jpeg"
 		}
 	},
 		{
@@ -68,7 +68,7 @@
 			"current_position":"Reporting Intern",
 			"current_city":"Norfolk, VA",
 			"current_company": "The Virginian-Pilot",
-			"image_url": "kellyhobbs.jpeg"
+			"img_url": "kellyhobbs.jpeg"
 		}
 	},
 		{
@@ -86,7 +86,7 @@
 			"current_position":"Fun Intern",
 			"current_city":"Washington, DC",
 			"current_company": "The Washington Post",
-			"image_url": "megancarlson.jpeg"
+			"img_url": "megancarlson.jpeg"
 		}
 	},
 		{
@@ -104,8 +104,7 @@
 			"current_position":"Research Intern",
 			"current_city":"Denver, CO",
 			"current_company": "The Denver Post",
-			"image_url": "kevinjones.jpeg"
+			"img_url": "kevinjones.jpeg"
 		}
 	}
-
 ]
