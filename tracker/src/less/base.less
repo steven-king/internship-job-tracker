@@ -1,0 +1,68 @@
+// Variables - colors
+
+// main palette
+//@off-white:              #F8F3E8;
+//@light-gray:             #4E4947;
+//@dark-gray:              #242726;
+///@carolina-blue:          #9FC5FF;
+//@navy-blue:              #4B5485;
+
+// extra color things
+@link-color:            #9FC5FF; // Carolina blue
+@link-color-hover:      darken(@link-color, 10%);
+
+
+// type
+@font:                  'Source Sans Pro';
+@cream: #F8F3E8;
+@brown: #4E4947;
+@light-blue: #9FC5FF;
+@dark-blue: #4B5485;
+@gray: #242726;
+@light-gray: #E8EEF0;
+
+
+h1, h2, h3, h4, h5, h6, p, a, body {
+    font-family: @font;
+    color: @gray;
+}
+
+.nav-logo {
+    color: @light-gray;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+    
+a,
+.link {
+  color:                    @link-color;
+}
+a:hover {
+  color:                    @link-color-hover;
+  text-decoration:          none;
+}
+
+.openfield {
+    display:                block;
+    padding:                0 0 0 100px;
+}
+
+.loginmodal {
+    padding: 5px 10px 5px 10px;
+}
+
+.loggedout-prompt {
+    color:   @cream;
+    display: block;
+    margin:  12px 0 0 20px;
+    font-size: 1em;
+
+}
+
+.navbar {
+   background-color: @brown; 
+   padding: 0 0 0 0;
+}
+
+
+

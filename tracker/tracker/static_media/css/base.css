@@ -1,0 +1,42 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+body {
+  font-family: 'Source Sans Pro';
+  color: #242726;
+}
+.nav-logo {
+  color: #e8eef0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+a,
+.link {
+  color: #9fc5ff;
+}
+a:hover {
+  color: #6ca6ff;
+  text-decoration: none;
+}
+.openfield {
+  display: block;
+  padding: 0 0 0 100px;
+}
+.loginmodal {
+  padding: 5px 10px 5px 10px;
+}
+.loggedout-prompt {
+  color: #f8f3e8;
+  display: block;
+  margin: 12px 0 0 20px;
+  font-size: 1em;
+}
+.navbar {
+  background-color: #4e4947;
+  padding: 0 0 0 0;
+}
