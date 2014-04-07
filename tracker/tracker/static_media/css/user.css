@@ -5776,7 +5776,11 @@ body {
   background-color: #d5d6d8;
 }
 #user a {
-  color: red;
+  text-decoration: none;
+  color: inherit;
+}
+#user a :hover {
+  text-decoration: underline;
 }
 #user h1,
 #user h2,
@@ -5797,14 +5801,20 @@ body {
   padding: 10px;
   line-height: 1em;
 }
-#user .profile-box h1,
-#user .profile-box h2,
 #user .profile-box h3,
-#user .profile-box h4,
-#user .profile-box h5,
-#user .profile-box h6,
 #user .profile-box p {
   color: #eff0f2;
+}
+#user .img-box {
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px white solid;
+}
+#user .read-more a {
+  color: #eff0f2;
+  text-decoration: none;
 }
 #user .img-info-box {
   text-align: center;

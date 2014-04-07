@@ -17,7 +17,11 @@ body{
 	@base-font-color: #484847;
 
 	a{
-		color: red;
+		text-decoration: none;
+		color: inherit;
+		:hover{
+			text-decoration: underline;
+		}
 	}
 
 	h1, h2, h3, h4, h5, h6, p{
@@ -34,11 +38,27 @@ body{
 		background-color:@profile-box;
 		padding: 10px;
 		line-height: 1em;
-		h1, h2, h3, h4, h5, h6, p{
+		h3, p{
 			color:@profile-font-color
+		}
+	}
+
+	.img-box{
+		height: 100px;
+		width: 100px;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px white solid;
+	}
+
+	.read-more{
+		a{
+			color: @profile-font-color;
+			text-decoration: none;
 		}
 	}
 	.img-info-box{
 		text-align: center;
 	}
+
 }
