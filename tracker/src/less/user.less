@@ -1,9 +1,18 @@
 @import 'bootstrap/bootstrap.less'; 
 
+@background: #D5D6D8;
+body{
+	background-color: @background;
+}
+
 #user{
 	@font: 'Source Sans Pro', sans-serif;
+
+	@header-weight: 600;
+	@copy-weight: 400;
+	@bold-weight: 700;
+
 	@profile-box: #4E4946;
-	@background: #D5D6D8;
 	@profile-font-color: #EFF0F2;
 	@base-font-color: #484847;
 
@@ -14,12 +23,22 @@
 	h1, h2, h3, h4, h5, h6, p{
 		font-family: @font;
 		color: @base-font-color;
+		font-weight: @header-weight;
+	}
+
+	.copy{
+		font-weight: @copy-weight;
 	}
 
 	.profile-box{
 		background-color:@profile-box;
+		padding: 10px;
+		line-height: 1em;
 		h1, h2, h3, h4, h5, h6, p{
 			color:@profile-font-color
 		}
+	}
+	.img-info-box{
+		text-align: center;
 	}
 }

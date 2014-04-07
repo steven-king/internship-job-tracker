@@ -5772,40 +5772,33 @@ button.close {
     display: none !important;
   }
 }
-body {
-  background-color: #d5d6d8;
+#city h1,
+#city h2,
+#city h3,
+#city h4,
+#city h5,
+#city h6,
+#city p {
+  font-family: 'Source Sans Pro';
+  color: #242726;
 }
-#user a {
-  color: red;
+#city h1,
+#city h2,
+#city h4 {
+  font-weight: bold;
 }
-#user h1,
-#user h2,
-#user h3,
-#user h4,
-#user h5,
-#user h6,
-#user p {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #484847;
-  font-weight: 600;
+#city p {
+  font-family: 'Source Sans Pro';
+  color: #242726;
 }
-#user .copy {
-  font-weight: 400;
-}
-#user .profile-box {
-  background-color: #4e4946;
-  padding: 10px;
-  line-height: 1em;
-}
-#user .profile-box h1,
-#user .profile-box h2,
-#user .profile-box h3,
-#user .profile-box h4,
-#user .profile-box h5,
-#user .profile-box h6,
-#user .profile-box p {
-  color: #eff0f2;
-}
-#user .img-info-box {
+#city .list-box {
+  background-color: #e8eef0;
   text-align: center;
+  padding-bottom: 10px;
+  border: 10px solid white;
+  display: table-cell;
+  vertical-align: middle;
+}
+#city .list-box h3 {
+  color: #4b5485;
 }

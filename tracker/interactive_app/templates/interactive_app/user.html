@@ -6,11 +6,20 @@
 	<div class="row">
 		<div class="col-md-4 col-sm-4">
 			<div class="profile-box">
-			 <h3>{{ user.name }}</h3>
+				<div class="img-info-box">
+					 <h3>{{ user.name }}</h3>
+					 <p>{{ user.current_city }}<p>
+			 	</div>
+			 	<p>HOMETOWN: <span class="copy">Matthews</span><p>
+			 	<p>MAJOR: <span class="copy">{{ user.major }}</span><p>
+			 	<p>YEAR: <span class="copy">{{ user.graduation_year }}</span><p>
+			 	<p>CONTACT: <span class="copy">{{ user.email }}</span><p>
+			 	<p>PORTFOLIO: <span class="copy"><a href="{{ user.portfolio }}" target="_blank">{{user.portfolio}}</a></span><p>
+			 	<p>BIO: <span class="copy">{{ user.bio }}</span><p>
 			</div>
 		</div>
 		<div class="col-md-8 col-sm-8">
-			<h5>Hello</h5>
+			<h3>EXPERIENCE</h3>
 		</div>
 	</div>
 		
