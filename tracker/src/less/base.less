@@ -33,22 +33,20 @@ h1, h2, h3, h4, h5, h6, p, a, body {
     text-transform: uppercase;
 }
     
+
 a,
 .link {
-  color:                    @link-color;
+  color: @link-color;
 }
 a:hover {
-  color:                    @link-color-hover;
-  text-decoration:          none;
-}
-
-.openfield {
-    display:                block;
-    padding:                0 0 0 100px;
-}
+  color: @link-color-hover;
+  text-decoration:none;
+}    
 
 .loginmodal {
     padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: @gray;
 }
 
 .loggedout-prompt {
@@ -56,12 +54,21 @@ a:hover {
     display: block;
     margin:  12px 0 0 20px;
     font-size: 1em;
-
 }
 
 .navbar {
    background-color: @brown; 
    padding: 0 0 0 0;
+}
+
+.preferences {
+    display: block;
+    background-color: darken(@brown, 5%);
+    padding: 0 20px 0 20px;
+    margin: 0 5px 0 5px;
+}
+.preferences:hover {
+    background-color: darken(@brown, 20%);
 }
 
 

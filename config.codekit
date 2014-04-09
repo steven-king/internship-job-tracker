@@ -77,6 +77,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/tracker\/src\/css\/city.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tracker\/src\/css\/city.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/tracker\/src\/css\/theme-styles.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tracker\/src\/css\/theme-styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/tracker\/src\/less\/base.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -917,6 +935,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/tracker\/src\/less\/home.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tracker\/src\/less\/home.less",
+		"outputAbbreviatedPath": "\/tracker\/tracker\/static_media\/css\/home.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/tracker\/src\/less\/theme-styles.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -927,6 +965,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/tracker\/src\/less\/theme-styles.less",
 		"outputAbbreviatedPath": "\/tracker\/src\/css\/theme-styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/tracker\/src\/less\/user.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tracker\/src\/less\/user.less",
+		"outputAbbreviatedPath": "\/tracker\/src\/css\/user.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1367,6 +1425,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/tracker\/tracker\/static_media\/css\/user.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/css\/user.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/tracker\/tracker\/static_media\/img\/anniedaniel.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1385,6 +1452,50 @@
 		"initialSize": 175271,
 		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/carolinecook.jpeg",
 		"outputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/carolinecook.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/tracker\/tracker\/static_media\/img\/coder-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 493,
+		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/coder-black.png",
+		"outputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/coder-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/tracker\/tracker\/static_media\/img\/coder-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 647,
+		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/coder-blue.png",
+		"outputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/coder-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/tracker\/tracker\/static_media\/img\/designer-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 708,
+		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/designer-black.png",
+		"outputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/designer-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/tracker\/tracker\/static_media\/img\/designer-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 952,
+		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/designer-blue.png",
+		"outputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/designer-blue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1477,6 +1588,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/tracker\/tracker\/static_media\/img\/photog-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 538,
+		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/photog-black.png",
+		"outputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/photog-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/tracker\/tracker\/static_media\/img\/photog-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 634,
+		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/photog-blue.png",
+		"outputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/photog-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/tracker\/tracker\/static_media\/img\/reporter-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 435,
+		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/reporter-black.png",
+		"outputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/reporter-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/tracker\/tracker\/static_media\/img\/reporter-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 495,
+		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/reporter-blue.png",
+		"outputAbbreviatedPath": "\/tracker\/tracker\/static_media\/img\/reporter-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/tracker\/tracker\/static_media\/img\/user.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1505,6 +1660,39 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/js\/bootstrap.min.js",
 		"outputAbbreviatedPath": "\/tracker\/tracker\/static_media\/js\/min\/bootstrap.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/tracker\/tracker\/static_media\/js\/min\/site-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/js\/min\/site-ck.js",
+		"outputAbbreviatedPath": "\/tracker\/tracker\/static_media\/js\/min\/min\/site-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/tracker\/tracker\/static_media\/js\/readmore.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/js\/readmore.min.js",
+		"outputAbbreviatedPath": "\/tracker\/tracker\/static_media\/js\/min\/readmore.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/tracker\/tracker\/static_media\/js\/site.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/js\/site.js",
+		"outputAbbreviatedPath": "\/tracker\/tracker\/static_media\/js\/min\/site-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
