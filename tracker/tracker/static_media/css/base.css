@@ -23,12 +23,10 @@ a:hover {
   color: #6ca6ff;
   text-decoration: none;
 }
-.openfield {
-  display: block;
-  padding: 0 0 0 100px;
-}
 .loginmodal {
   padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  color: #242726;
 }
 .loggedout-prompt {
   color: #f8f3e8;
@@ -39,4 +37,13 @@ a:hover {
 .navbar {
   background-color: #4e4947;
   padding: 0 0 0 0;
+}
+.preferences {
+  display: block;
+  background-color: #413d3b;
+  padding: 0 20px 0 20px;
+  margin: 0 5px 0 5px;
+}
+.preferences:hover {
+  background-color: #191716;
 }
