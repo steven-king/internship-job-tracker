@@ -43,10 +43,10 @@
 		      </ul>
 		      
 		     <!-- Here goes the user preferences  --> 
-		     	<ul class="nav navbar-nav">
-			<li class="preferences"><a href="#">DESIGNER{{ user.type }}</a></li>
-			<li class="preferences"><a href="#">BOSTON{{ city.name }}</a></li>
-			<li class="preferences"><a href="#">THE BOSTON GLOBE{{ organization.name }}</a></li>
+		      <ul class="nav navbar-nav">
+			<li class="preferences"><a href="/{{ user.typepref }}">DESIGNER{{ user.typepref }}</a></li>
+			<li class="preferences"><a href="/{{ user.citypref }}">BOSTON{{ user.citypref }}</a></li>
+			<li class="preferences"><a href="/{{ user.organizationpref }}">THE BOSTON GLOBE{{ user.organizationpref }}</a></li>
 		      </ul>
 			
 		<!-- If not logged in, they'll be prompted to do so.
@@ -71,7 +71,6 @@
 				  <form type="text" class="form-control" placeholder=""></form>
 				</div>
 				<hr>
-			    <li class="divider"></li>
 			    <li><a href="#">Or, sign up with Facebook here</a></li>
 			  </ul>
 			</li>

@@ -23,24 +23,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/tracker\/interactive_app\/templates\/interactive_app\/city.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/tracker\/interactive_app\/templates\/interactive_app\/city.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/tracker\/interactive_app\/templates\/interactive_app\/city_list.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/tracker\/interactive_app\/templates\/interactive_app\/city_list.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/tracker\/interactive_app\/templates\/interactive_app\/home.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -59,29 +41,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/tracker\/interactive_app\/templates\/interactive_app\/organization_list.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/tracker\/interactive_app\/templates\/interactive_app\/organization_list.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/tracker\/interactive_app\/templates\/interactive_app\/user.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/tracker\/interactive_app\/templates\/interactive_app\/user.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/tracker\/src\/css\/city.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/tracker\/src\/css\/city.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -915,26 +879,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/tracker\/src\/less\/city.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/tracker\/src\/less\/city.less",
-		"outputAbbreviatedPath": "\/tracker\/src\/css\/city.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/tracker\/src\/less\/home.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -1398,11 +1342,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/tracker\/tracker\/static_media\/css\/city.css": {
+	"\/tracker\/tracker\/static_media\/css\/home.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/css\/city.css",
+		"inputAbbreviatedPath": "\/tracker\/tracker\/static_media\/css\/home.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
