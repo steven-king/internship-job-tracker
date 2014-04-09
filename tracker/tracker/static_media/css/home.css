@@ -1,0 +1,26 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+body {
+  color: #f8f3e8;
+}
+a,
+.link {
+  color: #9fc5ff;
+}
+a:hover {
+  color: #6ca6ff;
+  text-decoration: none;
+}
+#filters {
+  background-color: #242726;
+}
+.types {
+  display: block;
+  float: left;
+}
