@@ -47,3 +47,9 @@ a:hover {
 .preferences:hover {
   background-color: #191716;
 }
+ul.dropdown-menu.loginmodal::before {
+  margin: 0 0 0 205px;
+}
+ul.dropdown-menu.loginmodal::after {
+  margin: 0 0 0 205px;
+}
