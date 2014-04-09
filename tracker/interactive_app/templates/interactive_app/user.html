@@ -8,7 +8,7 @@
 			<div class="profile-box">
 				<div class="img-info-box">
 					<div class="img-box">
-						<img src='{{ STATIC_URL }}img/{{ user.img_url }}'/>
+						<img src="{% static 'img/' %}{{ user.img_url }}"/>
 					</div>
 					 <h3>{{ user.name }}</h3>
 					 <p class="copy"><span class="glyphicon glyphicon-map-marker"></span>{{ user.current_city }}<p>

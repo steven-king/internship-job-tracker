@@ -8,6 +8,7 @@ urlpatterns = patterns('',
     url(r'^accounts/', include('allauth.urls')),
     # url(r'^user/$', views.userList, name='interactive_app_user_list'),
     url(r'^user/(?P<pk>\d+)$', views.user, name='interactive_app_user'),
+    url(r'^user/$', views.userList, name='interactive_app_user_list'),
     url(r'^organization/$', views.organizationList, name='interactive_app_organization_list'),
     url(r'^city/$', views.cityList, name='interactive_app_city_list'),
     url(r'^city/(?P<pk>\d+)$', views.city, name='interactive_app_city')
