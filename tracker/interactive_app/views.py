@@ -12,6 +12,16 @@ def user(request, pk):
 
 def userList(request):
 	user_list = User.objects.all()
+	paginator = Paginator(user_list, 100)
+	page = request.GET.get('page')
+	try:
+		users = paginator.page(page)
+	except PageNotAnInteger:
+		#if page is not an integer, deliver first page.
+		users=paginator.page(1)
+	except EmptyPage:
+		#i f page is out of range (eg 9000), deliver last page of results.
+		users = paginator.page(paginator.num_pages)
 	return render(request, 'interactive_app/user_list.html', {"users":users})
 
 def city(request, pk):

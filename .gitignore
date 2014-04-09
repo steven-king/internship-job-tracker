@@ -40,4 +40,6 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+config.codekit
+*.DS_Store
 >>>>>>> 838f0ee8e9bbb1cdbe7fd6f6d3406239413ce84e
