@@ -5,11 +5,14 @@
 	<div class="container">
 	<h2>Cities</h2>
 	{% for city in cities %}
-		<a href="{{ city.id }}" class="hover"><div class="col-md-3 col-sm-6 col-xs-12 list-box">
+	<div class="image_text">
+		<a href="{{ city.id }}"><div class="col-md-3 col-sm-6 col-xs-12 list-box">
+			<img class="city_map" src="http://api.tiles.mapbox.com/v3/afortune906.hnidfk42/{{ city.longitude }},{{ city.lat }},13/220x152.jpg"/>
 			<h3>{{ city.name }}</h3>
 			<h5>{{city.state}}</h5>
 		</div></a>
-			{% endfor %}
+	{% endfor %}
+	</div>
 	</div>
 
 </div>
