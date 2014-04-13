@@ -24,3 +24,10 @@ a:hover {
   display: block;
   float: left;
 }
+.typeicon {
+  height: 25px;
+  margin: 0 5px 0 10px;
+}
+.typeicon:hover {
+  opacity: .5;
+}

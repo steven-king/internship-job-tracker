@@ -33,11 +33,13 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand nav-logo" href="#">Ramses Rolodex</a>
 		    </div>
-		
+
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse">
+		      
+		      <a href="#"><span class="navbar-brand nav-logo">Ramses Rolodex</span></a>
+		      
 		      <ul class="nav navbar-nav">
 			<li><a href="#">About</a></li>
 		      </ul>
@@ -53,9 +55,6 @@
 		     
 		     <ul class="nav navbar-nav">
 			<li><span class="loggedout-prompt"><a href="#">Log In </a>to store your preferences, or explore internships by <a href="#">type</a>, <a href="#">location</a>, or <a href="#">organization</a>.</span></li>
-			<li><a href="#">I'm a</a></li>
-			<li><a href="#">Cities</a></li>
-			<li><a href="#">Organizations</a></li>
 		      </ul>-->
 
 		      
@@ -86,11 +85,11 @@
 </header>
 </div>
 {% endblock %}
-<div class="container">
-    {% block content %}
-    {% endblock %}   
-</div>
 
+<div class="container">
+{% block content %}
+{% endblock %}
+</div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="/static_media/js/bootstrap.min.js"></script>
     <script src="/static_media/js/readmore.min.js"></script>
