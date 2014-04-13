@@ -3,8 +3,10 @@ from interactive_app.models import User, City, Organization
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 def home(request):
-    #context = {}
-    return render(request, "interactive_app/home.html")
+    user_list = User.objects.all()
+    organization_list = Organization.objects.all()
+    city_list = City.objects.all()
+    return render(request, "interactive_app/home.html", {'users': user_list, 'organizations': organization_list, 'cities': city_list})
 
 def user(request, pk):
 	user = get_object_or_404(User, id=pk)
@@ -25,8 +27,10 @@ def userList(request):
 	return render(request, 'interactive_app/user_list.html', {"users":users})
 
 def city(request, pk):
-	city = get_object_or_404(City, id=pk)	
-	return render(request, "interactive_app/city.html", {'city':city})
+    city = get_object_or_404(City, id=pk)
+    current_people = User.objects.filter(current_city = pk)
+    local_orgs = Organization.objects.filter(city = pk)
+    return render(request, "interactive_app/city.html", {'city':city, 'current_people': current_people, 'local_orgs': local_orgs})
 
 def cityList(request):
 	city_list = City.objects.all()
@@ -43,8 +47,9 @@ def cityList(request):
 	return render(request, "interactive_app/city_list.html", {"cities":cities})
 
 def organization(request,pk):
-	organization = get_object_or_404(Organization, id=pk)
-	return render(request, "interactive_app/organization.html", {'organization':organization})
+    organization = get_object_or_404(Organization, id=pk)
+    current_people = User.objects.filter(current_company = pk)        
+    return render(request, "interactive_app/organization.html", {'organization':organization, 'current_people': current_people})
 
 def organizationList(request):
 	organization_list = Organization.objects.all()

@@ -12,7 +12,7 @@
 			"portfolio":"http://www.thesddaniels.com/",
 			"twitter":"https://twitter.com/anieldaniel",
 			"current_position":"Graphics Intern",
-			"current_city":"Washington, DC",
+			"current_city": 0,
 			"current_company": "The Washington Post",
 			"img_url": "anniedaniel.jpeg"
 		}
@@ -30,7 +30,7 @@
 			"portfolio":"http://www.jeffbowman.com/",
 			"twitter":"https://twitter.com/jeffreylbowman",
 			"current_position":"Photo Intern",
-			"current_city":"Raleigh, NC",
+			"current_city": 3,
 			"current_company": "The News and Observer",
 			"img_url": "jeffbowman.jpg"
 		}
@@ -48,7 +48,7 @@
 			"portfolio":"http://www.jmiller.com/",
 			"twitter":"https://twitter.com/JasonMillerCA",
 			"current_position":"Interactive Design Intern",
-			"current_city":"Miami, FL",
+			"current_city": 4,
 			"current_company": "The Miami Herald",
 			"img_url": "jasonmiller.jpeg"
 		}
@@ -66,8 +66,8 @@
 			"portfolio":"http://www.hobbs.com/",
 			"twitter":"https://twitter.com/Kelloggz28",
 			"current_position":"Reporting Intern",
-			"current_city":"Norfolk, VA",
-			"current_company": "The Virginian-Pilot",
+			"current_city": 1,
+			"current_company": 1,
 			"img_url": "kellyhobbs.jpeg"
 		}
 	},
@@ -84,8 +84,8 @@
 			"portfolio":"http://www.thesddaniels.com/",
 			"twitter":"https://twitter.com/megancarlson_",
 			"current_position":"Fun Intern",
-			"current_city":"Washington, DC",
-			"current_company": "The Washington Post",
+			"current_city": 0,
+			"current_company": 0,
 			"img_url": "megancarlson.jpeg"
 		}
 	},
@@ -102,8 +102,8 @@
 			"portfolio":"http://www.kevdawg.com/",
 			"twitter":"https://twitter.com/Mr_KevinJones",
 			"current_position":"Research Intern",
-			"current_city":"Denver, CO",
-			"current_company": "The Denver Post",
+			"current_city": 2,
+			"current_company": 2,
 			"img_url": "kevinjones.jpeg"
 		}
 	}

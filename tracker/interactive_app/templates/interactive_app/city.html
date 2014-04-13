@@ -14,6 +14,15 @@
             <h5>We may need an h5 also</h5>
             <h6>This is a teeny little h6</h6>
             <p>List of internship opportunities here</p>
+            
+                {% for person in current_people %}
+                <h3>{{person.name}}</h3>
+                {% endfor %}
+            
+                {% for org in local_orgs %}
+                <h3>{{org.name}}</h3>
+                {% endfor %}
+            
             <a href="{% url 'interactive_app_city_list' %}">Back to city list</a>
         </div>
         <div class="col-md-6">
@@ -21,4 +30,5 @@
         </div>
     </div>
 </div>
+   
 {% endblock %}
