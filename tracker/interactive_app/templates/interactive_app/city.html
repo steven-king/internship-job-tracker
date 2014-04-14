@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<div id="city">
+    <div class="row">
+        <div class="col-md-6 col-sm-3">
+            <h1>Welcome to {{ city.name }}!</h1>
+        
+        
+            <h3>This is a test of h3</h3>
+            <h4>Hey we may need an h4</h4>
+            <h5>We may need an h5 also</h5>
+            <h6>This is a teeny little h6</h6>
+            <p>List of internship opportunities here</p>
+            
+<!--Here is the current interns table-->
+            <table id="city-current" class="tablesorter">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Organization</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for person in current_people %}
+                    <tr><td>{{ person.name }}</td>
+                {% endfor %}
+            
+                {% for org in local_orgs %}
+                <td>{{ org.name }}</td>
+                {% endfor %}
+                    </tr>
+            </tbody>
+            </table>
+            
+            <a href="{% url 'interactive_app_city_list' %}">Back to city list</a>
+        </div>
+        <div class="col-md-6">
+            <img class="city_map" src="http://api.tiles.mapbox.com/v3/afortune906.hnidfk42/{{ city.longitude }},{{ city.lat }},13/500x300.jpg"/>
+        </div>
+    </div>
+</div>
+   
+{% endblock %}

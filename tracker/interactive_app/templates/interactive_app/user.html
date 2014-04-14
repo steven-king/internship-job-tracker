@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+<div id="user">
+	<div class="row">
+		<div class="col-md-5 col-sm-5">
+			<div class="profile-box">
+				<div class="img-info-box">
+					<div class="img-box">
+						<img src="{% static 'img/' %}{{ user.img_url }}"/>
+					</div>
+					 <h3>{{ user.name }}</h3>
+					 <p class="copy"><span class="glyphicon glyphicon-map-marker"></span>{{ user.current_city }}<p>
+			 	</div>
+			 	<div class="row">
+			 		<div class="col-md-3 col-sm-4 col-xs-4">
+					 	<p>HOMETOWN:</p> 
+					 	<p>MAJOR:</p> 
+					 	<p>YEAR:</p>
+					 	<p>CONTACT:</p>
+					 	<p>PORTFOLIO:</p> 
+					 	<p>BIO:</p>
+					 </div>
+					 <div class="col-md-8 col-sm-8 col-xs-8">
+					 	<p class="copy">Matthews, N.C.</p>
+					 	<p class="copy">{{ user.major }}</span></p>
+					 	<p class="copy">{{ user.graduation_year }}</p>
+					 	<p class="copy">{{ user.email }}</p>
+					 	<p class="copy"><a href="{{ user.portfolio }}" target="_blank">{{user.portfolio}}</a></p>
+					 	<p class="copy article">{{ user.bio }}</p>
+					 </div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-7 col-sm-7">
+			<div class="experience-box">
+				<h3><strong>EXPERIENCE</strong></h3>
+				<hr />
+				<div class="row">
+					<div class="col-md-12">
+						<p>COMPANY: <span class="copy">{{ user.current_company }}</span></p>
+						<p>CITY: <span class="copy">{{ user.current_city }}</span></p>
+						<p>POSITION: <span class="copy">{{ user.current_position }}</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+</div>
+
+{% endblock %}

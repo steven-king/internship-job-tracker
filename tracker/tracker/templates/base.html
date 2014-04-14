@@ -1,0 +1,101 @@
+<!--project template:  /templates/base.html -->
+
+<!DOCTYPE html>
+
+<html lang=en>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+    <link href="/static_media/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static_media/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/static_media/css/style.css" rel="stylesheet">
+    <link href="/static_media/css/user.css" rel="stylesheet">
+    <link href="/static_media/css/city.css" rel ="stylesheet">
+    <link href="/static_media/css/base.css" rel ="stylesheet">
+    <link href="/static_media/css/home.css" rel ="stylesheet">
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+    <script type="text/javascript" src="/path/to/jquery-latest.js"></script>
+    <script type="text/javascript" src="/path/to/jquery.tablesorter.js"></script>
+
+    <title>{% block title %}Internship-Job Tracker{% endblock %}</title>
+</head>
+
+<body>
+{% block header %}
+<div id="base">
+<header>
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		      </button>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse">
+		      
+		      <a href="#"><span class="navbar-brand nav-logo">Ramses Rolodex</span></a>
+		      
+		      <ul class="nav navbar-nav">
+			<li><a href="#">About</a></li>
+		      </ul>
+		      
+		     <!-- Here goes the user preferences  --> 
+		      <ul class="nav navbar-nav">
+			<li class="preferences"><a href="/{{ user.typepref }}"><img class="typeicon-nav" src="../../static_media/img/coder-blue.png">DESIGNER{{ user.typepref }}</a></li>
+			<li class="preferences"><a href="/city/1">NORFOLK{{ user.citypref }}</a></li>
+			<li class="preferences"><a href="/organization/1">THE VIRGINIAN PILOT{{ user.organizationpref }}</a></li>
+		      </ul>
+			
+		<!-- If not logged in, they'll be prompted to do so.
+		     
+		     <ul class="nav navbar-nav">
+			<li><span class="loggedout-prompt"><a href="#">Log In </a>to store your preferences, or explore internships by <a href="#">type</a>, <a href="#">location</a>, or <a href="#">organization</a>.</span></li>
+		      </ul>-->
+
+		      
+		      <ul class="nav navbar-nav navbar-right">
+		
+			<li><a href="#">Sign Up <img src="">ICON</a></li>
+
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Log In<b class="caret"></b></a>
+			  <ul class="dropdown-menu loginmodal">
+			    <li>Email</li>
+				<div class="form-group">
+				  <form type="text" class="form-control" placeholder=""></form>
+				</div>
+			     <li>Password</li>
+				<div class="form-group">
+				  <form type="text" class="form-control" placeholder=""></form>
+				</div>
+			<button>Submit</button>
+				<hr>
+			    <li><a href="#">Or, sign in with Facebook here</a></li>
+			  </ul>
+			</li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+</header>
+</div>
+{% endblock %}
+
+<div class="container">
+{% block content %}
+{% endblock %}
+</div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="/static_media/js/bootstrap.min.js"></script>
+    <script src="/static_media/js/readmore.min.js"></script>
+    <script src="/static_media/js/site.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js"></script>
+
+</body>
+</html>

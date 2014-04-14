@@ -1,0 +1,61 @@
+[
+	{
+		"pk": 0,
+		"model":"interactive_app.City",
+		"fields":{
+			"name": "Washington",
+                        "state": "District of Columbia",
+                        "lat": "38.907231",
+			"longitude": "-77.036464",
+                        "img_url": "washingtondc.jpg"
+		}
+	},
+        
+        	{
+		"pk": 1,
+		"model":"interactive_app.City",
+		"fields":{
+			"name": "Norfolk",
+                        "state": "Virginia",
+                        "lat": "36.850769",
+			"longitude": "-76.285873",
+                        "img_url": "norfolkva.jpg"
+		}
+	},
+        
+	{
+		"pk": 2,
+		"model":"interactive_app.City",
+		"fields":{
+			"name": "Denver",
+                        "state": "Colorado",
+                        "lat": "39.737567",
+			"longitude": "-104.984718",
+                        "img_url": "denverco.jpg"
+		}
+	},
+        
+        	{
+		"pk": 3,
+		"model":"interactive_app.City",
+		"fields":{
+			"name": "Raleigh",
+                        "state": "North Carolina",
+                        "lat": "35.779590",
+			"longitude": "-78.638179",
+                        "img_url": "raleighnc.jpg"
+		}
+	},
+        
+        	{
+		"pk": 4,
+		"model":"interactive_app.City",
+		"fields":{
+			"name": "Miami",
+                        "state": "Florida",
+                        "lat": "25.788969",
+			"longitude": "-80.226439",
+                        "img_url": "miamifl.jpg"
+		}
+	}
+]

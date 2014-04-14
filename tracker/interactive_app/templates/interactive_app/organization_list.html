@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="city">
+	<div class="container">
+	<h2>Organizations</h2>
+	{% for city in cities %}
+		<a href="{{ city.id }}" class="hover"><div class="col-md-3 col-sm-6 col-xs-12 list-box">
+			<h3>{{ city.name }}</h3>
+			<h5>{{city.state}}</h5>
+		</div></a>
+			{% endfor %}
+	</div>
+
+</div>
+
+{% endblock %}
