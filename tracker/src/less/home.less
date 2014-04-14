@@ -1,43 +1,78 @@
-// extra color things
-@link-color:            #9FC5FF; // Carolina blue
-@link-color-hover:      darken(@link-color, 10%);
+@import 'bootstrap/bootstrap.less';
 
+#home {
+    
 
-// type
-@font:                  'Source Sans Pro';
-@cream: #F8F3E8;
-@brown: #4E4947;
-@light-blue: #9FC5FF;
-@dark-blue: #4B5485;
-@gray: #242726;
-@light-gray: #E8EEF0;
+    // extra color things
+    @link-color:            #9FC5FF; // Carolina blue
+    @link-color-hover:      darken(@link-color, 10%);
+    
+    
+    // type
+    @font:                  'Source Sans Pro';
+    @cream: #F8F3E8;
+    @brown: #4E4947;
+    @light-blue: #9FC5FF;
+    @dark-blue: #4B5485;
+    @gray: #242726;
+    @light-gray: #E8EEF0;
 
-h1, h2, h3, h4, h5, h6, p, a, body {
-    color: @cream;
-}
-
-a,
-.link {
-  color: @link-color;
-}
-a:hover {
-  color: @link-color-hover;
-  text-decoration:none;
-}
-
-#filters {
-    background-color: @gray;
-}
-
-.types {
-    display: block;
-    float: left;
-}
-
-.typeicon {
-    height:25px;
-    margin: 0 5px 0 10px;
-}
-.typeicon:hover {
-    opacity: .5;
+    
+    h1, h2, h3, h4, h5, h6, p, a, body, span {
+        color: @cream;
+        font-family: @font;
+    }
+    
+    a,
+    .link {
+      color: @link-color;
+    }
+    a:hover {
+      color: @link-color-hover;
+      text-decoration:none;
+    }
+    
+    #filters {
+        background-color: @gray;
+        margin: -40px 0 0 0;
+        padding: 5px 0 10px 5px;
+    }
+    
+    .filters {
+        display: block;
+        float: left;
+        background-color: @gray;
+    }
+    
+    .types {
+        color: @cream;
+        display: block;
+        float: left;
+    }
+    
+    .typeicon {
+        height:25px;
+        margin: 0 5px 0 10px;
+    }
+    .typeicon:hover {
+        opacity: .5;
+    }
+    
+    .cityfilt {
+        border: 1px solid @cream;
+        padding: 2px 20px 2px 20px;
+    }
+    
+    .caret {
+        margin: 0 0 0 20px;
+    }
+    
+    .maptoggle, {
+        font-family: @font;
+        color: @cream;
+    }
+    .maptoggle:active {
+        font-style: bold;
+    }
+    
 }

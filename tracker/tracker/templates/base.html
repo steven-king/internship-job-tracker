@@ -14,8 +14,9 @@
     <link href="/static_media/css/base.css" rel ="stylesheet">
     <link href="/static_media/css/home.css" rel ="stylesheet">
     <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+    <script type="text/javascript" src="/path/to/jquery-latest.js"></script>
+    <script type="text/javascript" src="/path/to/jquery.tablesorter.js"></script>
 
-	
     <title>{% block title %}Internship-Job Tracker{% endblock %}</title>
 </head>
 
@@ -46,9 +47,9 @@
 		      
 		     <!-- Here goes the user preferences  --> 
 		      <ul class="nav navbar-nav">
-			<li class="preferences"><a href="/{{ user.typepref }}">DESIGNER{{ user.typepref }}</a></li>
-			<li class="preferences"><a href="/{{ user.citypref }}">BOSTON{{ user.citypref }}</a></li>
-			<li class="preferences"><a href="/{{ user.organizationpref }}">THE BOSTON GLOBE{{ user.organizationpref }}</a></li>
+			<li class="preferences"><a href="/{{ user.typepref }}"><img class="typeicon-nav" src="../../static_media/img/coder-blue.png">DESIGNER{{ user.typepref }}</a></li>
+			<li class="preferences"><a href="/city/1">NORFOLK{{ user.citypref }}</a></li>
+			<li class="preferences"><a href="/organization/1">THE VIRGINIAN PILOT{{ user.organizationpref }}</a></li>
 		      </ul>
 			
 		<!-- If not logged in, they'll be prompted to do so.
@@ -94,8 +95,7 @@
     <script src="/static_media/js/bootstrap.min.js"></script>
     <script src="/static_media/js/readmore.min.js"></script>
     <script src="/static_media/js/site.js"></script>
-    <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
-
+    <script src="https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js"></script>
 
 </body>
 </html>

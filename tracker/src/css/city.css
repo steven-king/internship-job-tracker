@@ -5778,7 +5778,8 @@ button.close {
 #city h4,
 #city h5,
 #city h6,
-#city p {
+#city p,
+#city body {
   font-family: 'Source Sans Pro';
   color: #242726;
 }
@@ -5792,14 +5793,16 @@ button.close {
   color: #242726;
 }
 #city .list-box {
-  background-color: #9fc5ff;
+  background-color: #e8eef0;
   text-align: center;
   padding: 0px;
   border: 10px solid white;
   display: table-cell;
   vertical-align: middle;
+  width: inherit;
 }
 #city .list-box h3 {
   color: #4b5485;
   font-weight: bold;
+  margin-top: 7px;
 }
