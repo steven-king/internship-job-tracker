@@ -1,3 +1,7 @@
+@import 'bootstrap/bootstrap.less';
+
+#base {
+
 // Variables - colors
 
 // main palette
@@ -28,11 +32,11 @@ h1, h2, h3, h4, h5, h6, p, a, body {
 }
 
 .nav-logo {
-    color: @light-gray;
+    color: @cream;
     font-weight: 700;
     text-transform: uppercase;
 }
-    
+
 
 a,
 .link {
@@ -71,5 +75,20 @@ a:hover {
     background-color: darken(@brown, 20%);
 }
 
+ul.dropdown-menu.loginmodal::before {
+    margin: 0 0 0 205px;
+}
+
+ul.dropdown-menu.loginmodal::after {
+    margin: 0 0 0 205px;
+}
+
+.typeicon-nav, {
+    height:20px;
+    margin: 0 5px 0 0;
+    opacity: .5;
+}
+
+}
 
 
